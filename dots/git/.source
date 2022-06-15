@@ -1,0 +1,7 @@
+function gomaster() {
+  git co master
+}
+
+function gomain() {
+  git co main
+}

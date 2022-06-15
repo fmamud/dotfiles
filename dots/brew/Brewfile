@@ -1,0 +1,20 @@
+tap "gdubw/gng"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# tools
+brew "git"
+brew "htop"
+brew "jq"
+brew "pv"
+brew "luarocks"
+brew "openssl@3", link: true
+brew "pyenv"
+brew "redis"
+brew "telnet"
+brew "tree"
+brew "wget"
+brew "gdubw/gng/gng"
+brew "heroku/brew/heroku"
