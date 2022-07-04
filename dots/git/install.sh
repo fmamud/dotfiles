@@ -3,6 +3,6 @@
 mkdir -p ~/Git/Personal
 mkdir -p ~/Git/Professional
 
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.gitconfig-personal ~/.gitconfig-personal
-ln -s ~/.dotfiles/.gitconfig-professional ~/.gitconfig-professional
+ln -s ~/.dotfiles/dots/git/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/dots/git/.gitconfig-personal ~/.gitconfig-personal
+ln -s ~/.dotfiles/dots/git/.gitconfig-professional ~/.gitconfig-professional

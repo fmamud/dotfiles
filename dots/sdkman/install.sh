@@ -4,7 +4,7 @@ curl -s "https://get.sdkman.io" | bash
 
 source .source
 
-ln -s ~/.dotfiles/sdkman/config ~/.sdkman/etc/config
+ln -s ~/.dotfiles/dots/sdkman/config ~/.sdkman/etc/config
 
 sdk install java
 sdk install gradle
