@@ -104,4 +104,10 @@ source ~/.dotfiles/import/*
 
 bindkey -e
 bindkey '\e\e[C' forward-word
-bindkey '\e\e[D' backward-word 
+bindkey '\e\e[D' backward-word
+
+# pyenv
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
