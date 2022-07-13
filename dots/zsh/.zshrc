@@ -111,3 +111,6 @@ bindkey '\e\e[D' backward-word
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# libpq
+export PATH="/usr/local/opt/libpq/bin:$PATH"
