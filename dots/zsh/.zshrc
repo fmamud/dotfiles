@@ -100,7 +100,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.dotfiles/import/.*
+function import_source() {
+    for file in $(find $1 -name $2); do
+        source $file
+    done
+}
+
+import_source ~/.dotfiles/dots ".source"
+import_source ~/.dotfiles/import ".*"
 
 bindkey -e
 bindkey '\e\e[C' forward-word
