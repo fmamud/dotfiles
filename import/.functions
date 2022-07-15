@@ -8,6 +8,10 @@ watch() {
 }
 
 http-server() {
-  local port=${PORT:-8080}
-  echo "listening on localhost:$PORT" && while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; echo 'Hello, World!'; } | nc -l $PORT; done
+  local port=${PORT:-${1:-8080}}
+  echo "listening on localhost:$port" && while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; echo 'Hello, World!'; } | nc -l $port; done
+}
+
+reload-functions() {
+  source ~/.dotfiles/import/.*
 }
