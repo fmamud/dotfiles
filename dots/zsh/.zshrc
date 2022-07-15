@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/.dotfiles/import/*
+source ~/.dotfiles/import/.*
 
 bindkey -e
 bindkey '\e\e[C' forward-word
