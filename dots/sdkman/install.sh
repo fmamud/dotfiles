@@ -7,4 +7,5 @@ source .source
 ln -s ~/.dotfiles/dots/sdkman/config ~/.sdkman/etc/config
 
 sdk install java
+sdk install kotlin
 sdk install gradle
