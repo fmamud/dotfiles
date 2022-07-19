@@ -1,2 +1,3 @@
 .DS_Store
 dots/.oh-my-zsh/
+dots/brew/Brewfile.lock.json
