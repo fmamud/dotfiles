@@ -11,6 +11,8 @@ else
   brew upgrade
 fi
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 echo "Installing from Brewfile"
 brew bundle install
 
