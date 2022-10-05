@@ -108,6 +108,8 @@ function import_source() {
     done
 }
 
+touch ~/.tokens
+
 import_source ~/.dotfiles/dots ".source"
 import_source ~/.dotfiles/import ".*"
 
