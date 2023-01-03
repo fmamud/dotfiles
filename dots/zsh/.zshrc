@@ -109,6 +109,7 @@ function import_source() {
 }
 
 touch ~/.tokens
+touch ~/.functions-extra
 
 import_source ~/.dotfiles/dots ".source"
 import_source ~/.dotfiles/import ".*"
