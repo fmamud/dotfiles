@@ -4,6 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "shopify/shopify"
+tap "homebrew/cask-fonts"
 
 # tools
 brew "git"
@@ -22,5 +23,6 @@ brew "gdubw/gng/gng"
 brew "heroku/brew/heroku"
 brew "toxiproxy"
 
+cask "font-iosevka"
 cask "postman"
 cask "iterm2"
