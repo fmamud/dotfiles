@@ -22,6 +22,7 @@ brew "wget"
 brew "gdubw/gng/gng"
 brew "heroku/brew/heroku"
 brew "toxiproxy"
+brew "hexedit"
 
 cask "font-iosevka"
 cask "postman"
