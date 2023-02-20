@@ -126,3 +126,6 @@ eval "$(pyenv init -)"
 
 # libpq
 export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
