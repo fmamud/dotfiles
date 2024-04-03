@@ -23,6 +23,7 @@ brew "gdubw/gng/gng"
 brew "heroku/brew/heroku"
 brew "toxiproxy"
 brew "hexedit"
+brew "binutils"
 
 cask "font-iosevka"
 cask "postman"
