@@ -24,6 +24,7 @@ brew "heroku/brew/heroku"
 brew "toxiproxy"
 brew "hexedit"
 brew "binutils"
+brew "moreutils"
 
 cask "font-iosevka"
 cask "postman"
