@@ -9,6 +9,7 @@
 
 [user]
 	name = Felipe Mamud
+	signingkey = 25C9C93763DD72E1
 
 [push]
 	default = current
@@ -22,3 +23,9 @@
 	ci = commit
 	st = status
 	graph = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+[commit]
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

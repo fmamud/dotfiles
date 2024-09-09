@@ -1,2 +1,5 @@
 [user]
-        email = fmamud@newrelic.com
+        email = felipe.mamud@neon.com.br
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
