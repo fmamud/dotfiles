@@ -1,5 +1,5 @@
 [user]
-        email = felipe.mamud@neon.com.br
+        email = felipe.mamud@contentful.com
 
 [url "git@github.com:"]
     insteadOf = https://github.com/
