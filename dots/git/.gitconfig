@@ -9,7 +9,6 @@
 
 [user]
 	name = Felipe Mamud
-	signingkey = 25C9C93763DD72E1
 
 [push]
 	default = current
