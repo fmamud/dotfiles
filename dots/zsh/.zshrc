@@ -169,3 +169,6 @@ export PATH="$PATH:/Users/fmamud/.local/bin"
 
 # GOPATH
 export PATH="$PATH:/Users/fmamud/go/bin"
+
+# tcl-tk
+export PATH="/opt/homebrew/opt/tcl-tk/bin:$PATH"
